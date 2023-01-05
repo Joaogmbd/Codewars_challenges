@@ -18,4 +18,3 @@ Input constraints:
 '''
 
 total = lambda h, m ,s: ((h*3600000) + (m*60000) + (s*1000))
-print(str(total(0,2,1)))
