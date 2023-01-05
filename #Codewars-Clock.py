@@ -16,11 +16,6 @@ Input constraints:
 0 <= s <= 59
 
 '''
-def past(h, m, s):
-    h=h*3600000
-    m=m*60000
-    s=s*1000
-    total = h+m+s
-    return total
 
-print(str(past(1,0,0)))
+total = lambda h, m ,s: ((h*3600000) + (m*60000) + (s*1000))
+print(str(total(0,2,1)))
